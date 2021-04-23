@@ -1,0 +1,121 @@
+#color
+{
+    color:snow;
+   
+    
+}
+.container{
+    text-align:center;
+    background:rgb(142, 154, 221);
+    font-family:monospace ;
+}
+.header
+{
+    padding-top: 60px;
+    color:black;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+    
+}
+
+.sub-container
+{
+    max-width:1200px;
+    margin: auto;
+    padding:48px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.team
+{
+    margin:10px;
+    padding:22px;
+    max-width:30%;
+    cursor: pointer;
+    transition:0.4s;
+    box-sizing:border-box;
+}
+.team:hover{
+    background:rgb(42, 16, 156);
+    border-radius: 12px;
+}
+.team img
+{
+    width: 200px;
+    height: 200px;
+}
+.name
+{
+    padding:12px;
+    font-weight:bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.about
+{
+    margin:20px 0;
+    font-weight:lighter;
+    color:snow;
+    font-family: cursive;
+}
+.serial-links
+{
+    margin:14px;
+}
+.serial-links a:hover{
+    transform: scale(1.5);
+}
+
+.serial-links a{
+    display: inline-block;
+    height:30px;
+    width:30px;
+    color:black;
+}
+
+@media screen and (max-width:600px){
+    .team{
+
+        max-width:100%;
+    }
+    
+}
+
+.navlist li{
+    list-style: none;
+    padding:26px 30px;
+}
+.navlist li a
+{
+margin: auto;
+text-decoration: none;
+color:white;
+} 
+.navlist li a:hover 
+{
+  
+text-decoration: none;
+color:grey;
+}
+.navbar
+{
+    background: rgba(0,0,0,0.7);
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;    
+       
+}
+.navlist{
+    width:100%;
+    display: flex;     
+    align-items: center;
+ 
+}
